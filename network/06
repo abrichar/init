@@ -1,0 +1,3 @@
+/etc/resolv.conf
+On se trouve une liste avec l'ip et les dns 
+Explication : https://www.cyberciti.biz/faq/linux-unix-find-out-dns-server-ip-address-names/
