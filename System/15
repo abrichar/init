@@ -1,1 +1,1 @@
-pkill -n
+sudo pkill tail
