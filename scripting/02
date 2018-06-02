@@ -1,0 +1,6 @@
+#!/bin/bash
+echo 'apt-get update && apt-get upgrade >> /var/log/update_script.log' >> ~/apt_update.sh
+# planification : 
+echo '0 4 * * 0 root sh ~/apt_update.sh' | crontab
+# ==> planification à 00 minutes, 4 heures, aucun numéro de jour, ni de mois, 
+# ==> le dimanche, lancer ~/apt_update.sh
