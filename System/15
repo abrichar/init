@@ -1,1 +1,1 @@
-sudo pkill tail
+kill -9 $SERVICE
