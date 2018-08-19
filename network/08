@@ -1,2 +1,4 @@
-http://www.whois-raynette.fr/whois/slash16.org
---> AmazonS3
+whois slash16.org | grep "Name Server"
+
+
+--> AWS => Amazon
