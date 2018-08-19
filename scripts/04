@@ -1,0 +1,14 @@
+!/bin/bash
+
+OLDMD5 = 'cat /root/crontabsum'
+NEWMD5 = 'md5sum /etc/crontab | cut -d " " -f 1'
+
+if [ "$OLDMD5" != "$NEWMD5" ]
+then
+	md5sum /etc/crontab | cut -d " " -f 1 > /root/crontabsum
+	mail -s "The file crontab was modified" root@localhost.com < /etc/crontab
+fi
+
+# execution tous les jours à minuit
+# a mettre dans crontab : " 0 0 0 * 0-6   root    sh /root/check_ex4.sh"
+# crontabsum est l'empreinte digitale de crontab 
