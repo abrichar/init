@@ -1,3 +1,2 @@
 Quand je fais un nslookup de l'adresse 10.51.1.253
-je vois "name = dhcp.42.fr"
-je conclus en disant que c'est un serveur DHCP
+je vois "name = ldap-proxy.42.fr."

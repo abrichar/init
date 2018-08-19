@@ -1,1 +1,3 @@
-81.1.51.10.in-addr.arpa domain name pointer ldap-proxy.42.fr.
+Ce fichier est /private/etc/hosts.
+Dedans on peut voir que si l'on tape "localhost",
+on tombe sur l'adresse 127.0.0.1
