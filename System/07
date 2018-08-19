@@ -1,1 +1,1 @@
-ps aux | grep '[s]sh.*-f'
+cat /var/run/sshd.pid
