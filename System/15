@@ -1,1 +1,3 @@
-kill -9 $SERVICE
+( on peut retrouver le numero du processus avec "top")
+
+kill -9 [numero_processus]
