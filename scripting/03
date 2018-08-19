@@ -1,2 +1,0 @@
-#!/bin/bash
-ls -sh $1/* | sort -h
